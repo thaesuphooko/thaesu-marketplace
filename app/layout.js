@@ -1,3 +1,5 @@
+'use client';
+
 import { useThemeEngine } from '../hooks/useThemeEngine';
 import './globals.css';
 
