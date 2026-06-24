@@ -6,8 +6,8 @@
 5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
 6 verbose title npm exec next dev -p 3001
 7 verbose argv "exec" "--" "next" "dev" "-p" "3001"
-8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-06-24T06_26_42_995Z-
-9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-06-24T06_26_42_995Z-debug-0.log
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-06-24T06_43_40_509Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-06-24T06_43_40_509Z-debug-0.log
 10 silly logfile start cleaning logs, removing 1 files
 11 silly logfile done cleaning log files
 12 verbose cwd /data/data/com.termux/files/home
