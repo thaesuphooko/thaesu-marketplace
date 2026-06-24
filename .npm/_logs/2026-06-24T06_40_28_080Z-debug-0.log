@@ -6,8 +6,8 @@
 5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
 6 verbose title npm config get registry
 7 verbose argv "config" "get" "registry"
-8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-06-24T06_25_25_536Z-
-9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-06-24T06_25_25_536Z-debug-0.log
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-06-24T06_40_28_080Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-06-24T06_40_28_080Z-debug-0.log
 10 silly logfile start cleaning logs, removing 1 files
 11 verbose cwd /data/data/com.termux/files/home
 12 verbose os Linux 5.10.237-android12-9-00014-gf82f7360927e-ab14119954
