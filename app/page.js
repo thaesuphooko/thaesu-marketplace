@@ -1,6 +1,8 @@
-import { db } from '../../lib/db';
-import { products } from '../../lib/schema';
-
-export default function Dashboard() {
-  return <div>Dashboard Page</div>;
+export default function Home() {
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>Welcome to Thaesu Marketplace</h1>
+      <a href="/dashboard">Go to Dashboard</a>
+    </div>
+  );
 }
