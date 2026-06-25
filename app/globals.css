@@ -1,5 +1,1 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* သင့်ရဲ့ ကျန်တဲ့ css တွေ ဒီအောက်မှာ ထည့်နိုင်ပါတယ် */
+@import "tailwindcss";

@@ -1,0 +1,527 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.17.0
+2 info using node@v24.17.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install dotenv-cli
+7 verbose argv "install" "--save-dev" "dotenv-cli"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-06-24T20_29_22_379Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-06-24T20_29_22_379Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 silly idealTree buildDeps
+14 silly fetch manifest dotenv-cli@*
+15 silly packumentCache full:https://registry.npmjs.org/dotenv-cli cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/dotenv-cli 566ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/dotenv-cli set size:undefined disposed:false
+18 silly placeDep ROOT dotenv-cli@11.0.0 OK for: thaesu-marketplace@0.1.0 want: *
+19 silly fetch manifest cross-spawn@^7.0.6
+20 silly packumentCache full:https://registry.npmjs.org/cross-spawn cache-miss
+21 silly fetch manifest dotenv@^17.1.0
+22 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+23 silly fetch manifest dotenv-expand@^12.0.0
+24 silly packumentCache full:https://registry.npmjs.org/dotenv-expand cache-miss
+25 silly fetch manifest minimist@^1.2.6
+26 silly packumentCache full:https://registry.npmjs.org/minimist cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/dotenv-expand 120ms (cache miss)
+28 silly packumentCache full:https://registry.npmjs.org/dotenv-expand set size:undefined disposed:false
+29 http fetch GET 200 https://registry.npmjs.org/minimist 420ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/minimist set size:77063 disposed:false
+31 http fetch GET 200 https://registry.npmjs.org/cross-spawn 430ms (cache revalidated)
+32 silly packumentCache full:https://registry.npmjs.org/cross-spawn set size:109066 disposed:false
+33 http fetch GET 200 https://registry.npmjs.org/dotenv 435ms (cache revalidated)
+34 silly packumentCache full:https://registry.npmjs.org/dotenv set size:277818 disposed:false
+35 silly placeDep ROOT cross-spawn@7.0.6 OK for: dotenv-cli@11.0.0 want: ^7.0.6
+36 silly placeDep ROOT dotenv@17.4.2 OK for: dotenv-cli@11.0.0 want: ^17.1.0
+37 silly placeDep ROOT dotenv-expand@12.0.3 OK for: dotenv-cli@11.0.0 want: ^12.0.0
+38 silly placeDep ROOT minimist@1.2.8 OK for: dotenv-cli@11.0.0 want: ^1.2.6
+39 silly fetch manifest which@^2.0.1
+40 silly packumentCache full:https://registry.npmjs.org/which cache-miss
+41 silly fetch manifest path-key@^3.1.0
+42 silly packumentCache full:https://registry.npmjs.org/path-key cache-miss
+43 silly fetch manifest shebang-command@^2.0.0
+44 silly packumentCache full:https://registry.npmjs.org/shebang-command cache-miss
+45 silly fetch manifest dotenv@^16.4.5
+46 silly packumentCache full:https://registry.npmjs.org/dotenv cache-hit
+47 http fetch GET 200 https://registry.npmjs.org/path-key 137ms (cache revalidated)
+48 silly packumentCache full:https://registry.npmjs.org/path-key set size:16975 disposed:false
+49 http fetch GET 200 https://registry.npmjs.org/shebang-command 138ms (cache revalidated)
+50 silly packumentCache full:https://registry.npmjs.org/shebang-command set size:8525 disposed:false
+51 http fetch GET 200 https://registry.npmjs.org/which 144ms (cache revalidated)
+52 silly packumentCache full:https://registry.npmjs.org/which set size:70143 disposed:false
+53 silly placeDep ROOT path-key@3.1.1 OK for: cross-spawn@7.0.6 want: ^3.1.0
+54 silly placeDep ROOT shebang-command@2.0.0 OK for: cross-spawn@7.0.6 want: ^2.0.0
+55 silly placeDep ROOT which@2.0.2 OK for: cross-spawn@7.0.6 want: ^2.0.1
+56 silly fetch manifest shebang-regex@^3.0.0
+57 silly packumentCache full:https://registry.npmjs.org/shebang-regex cache-miss
+58 silly fetch manifest isexe@^2.0.0
+59 silly packumentCache full:https://registry.npmjs.org/isexe cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/shebang-regex 157ms (cache revalidated)
+61 silly packumentCache full:https://registry.npmjs.org/shebang-regex set size:9763 disposed:false
+62 http fetch GET 200 https://registry.npmjs.org/isexe 159ms (cache revalidated)
+63 silly packumentCache full:https://registry.npmjs.org/isexe set size:31756 disposed:false
+64 silly placeDep node_modules/dotenv-expand dotenv@16.6.1 OK for: dotenv-expand@12.0.3 want: ^16.4.5
+65 silly placeDep ROOT shebang-regex@3.0.0 OK for: shebang-command@2.0.0 want: ^3.0.0
+66 silly placeDep ROOT isexe@2.0.0 OK for: which@2.0.2 want: ^2.0.0
+67 silly reify moves {}
+68 silly audit bulk request {
+68 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+68 silly audit   '@drizzle-team/brocli': [ '0.10.2' ],
+68 silly audit   '@esbuild-kit/core-utils': [ '3.3.2' ],
+68 silly audit   '@esbuild/android-arm': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/android-arm64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/android-x64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/darwin-arm64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/darwin-x64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/freebsd-arm64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/freebsd-x64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/linux-arm': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/linux-arm64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/linux-ia32': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/linux-loong64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/linux-mips64el': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/linux-ppc64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/linux-riscv64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/linux-s390x': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/linux-x64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/netbsd-x64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/openbsd-x64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/sunos-x64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/win32-arm64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/win32-ia32': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/win32-x64': [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   esbuild: [ '0.18.20', '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild-kit/esm-loader': [ '2.6.5' ],
+68 silly audit   '@esbuild/aix-ppc64': [ '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/netbsd-arm64': [ '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/openbsd-arm64': [ '0.25.12', '0.28.1' ],
+68 silly audit   '@esbuild/openharmony-arm64': [ '0.25.12', '0.28.1' ],
+68 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+68 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+68 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+68 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+68 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+68 silly audit   '@neondatabase/serverless': [ '1.1.0' ],
+68 silly audit   '@next/env': [ '13.5.6' ],
+68 silly audit   '@next/swc-darwin-arm64': [ '13.5.6' ],
+68 silly audit   '@next/swc-darwin-x64': [ '13.5.6' ],
+68 silly audit   '@next/swc-linux-arm64-gnu': [ '13.5.6' ],
+68 silly audit   '@next/swc-linux-arm64-musl': [ '13.5.6' ],
+68 silly audit   '@next/swc-linux-x64-gnu': [ '13.5.6' ],
+68 silly audit   '@next/swc-linux-x64-musl': [ '13.5.6' ],
+68 silly audit   '@next/swc-win32-arm64-msvc': [ '13.5.6' ],
+68 silly audit   '@next/swc-win32-ia32-msvc': [ '13.5.6' ],
+68 silly audit   '@next/swc-win32-x64-msvc': [ '13.5.6' ],
+68 silly audit   '@swc/helpers': [ '0.5.2' ],
+68 silly audit   '@tailwindcss/node': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.3.1' ],
+68 silly audit   '@tailwindcss/postcss': [ '4.3.1' ],
+68 silly audit   '@types/node': [ '26.0.0' ],
+68 silly audit   '@types/react': [ '19.2.17' ],
+68 silly audit   '@types/react-dom': [ '19.2.3' ],
+68 silly audit   autoprefixer: [ '10.5.1' ],
+68 silly audit   'baseline-browser-mapping': [ '2.10.38' ],
+68 silly audit   browserslist: [ '4.28.4' ],
+68 silly audit   'buffer-from': [ '1.1.2' ],
+68 silly audit   busboy: [ '1.6.0' ],
+68 silly audit   'caniuse-lite': [ '1.0.30001799' ],
+68 silly audit   'client-only': [ '0.0.1' ],
+68 silly audit   cloudinary: [ '2.10.0' ],
+68 silly audit   clsx: [ '2.1.1' ],
+68 silly audit   csstype: [ '3.2.3' ],
+68 silly audit   'detect-libc': [ '2.1.2' ],
+68 silly audit   'drizzle-kit': [ '0.31.10' ],
+68 silly audit   'drizzle-orm': [ '0.45.2' ],
+68 silly audit   'electron-to-chromium': [ '1.5.378' ],
+68 silly audit   'enhanced-resolve': [ '5.21.6' ],
+68 silly audit   escalade: [ '3.2.0' ],
+68 silly audit   'fraction.js': [ '5.3.4' ],
+68 silly audit   fsevents: [ '2.3.3' ],
+68 silly audit   'get-tsconfig': [ '4.14.0' ],
+68 silly audit   'glob-to-regexp': [ '0.4.1' ],
+68 silly audit   'graceful-fs': [ '4.2.11' ],
+68 silly audit   jiti: [ '2.7.0' ],
+68 silly audit   'js-tokens': [ '4.0.0' ],
+68 silly audit   lightningcss: [ '1.32.0' ],
+68 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+68 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+68 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+68 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+68 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+68 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+68 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+68 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+68 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+68 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+68 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+68 silly audit   lodash: [ '4.18.1' ],
+68 silly audit   'loose-envify': [ '1.4.0' ],
+68 silly audit   'magic-string': [ '0.30.21' ],
+68 silly audit   nanoid: [ '3.3.15' ],
+68 silly audit   next: [ '13.5.6' ],
+68 silly audit   postcss: [ '8.4.31', '8.5.15' ],
+68 silly audit   'node-releases': [ '2.0.49' ],
+68 silly audit   picocolors: [ '1.1.1' ],
+68 silly audit   'postcss-value-parser': [ '4.2.0' ],
+68 silly audit   react: [ '18.2.0' ],
+68 silly audit   'react-dom': [ '18.2.0' ],
+68 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+68 silly audit   scheduler: [ '0.23.2' ],
+68 silly audit   'source-map': [ '0.6.1' ],
+68 silly audit   'source-map-js': [ '1.2.1' ],
+68 silly audit   'source-map-support': [ '0.5.21' ],
+68 silly audit   streamsearch: [ '1.1.0' ],
+68 silly audit   'styled-jsx': [ '5.1.1' ],
+68 silly audit   'tailwind-merge': [ '3.6.0' ],
+68 silly audit   tailwindcss: [ '4.3.1' ],
+68 silly audit   tapable: [ '2.3.3' ],
+68 silly audit   tslib: [ '2.8.1' ],
+68 silly audit   tsx: [ '4.22.4' ],
+68 silly audit   typescript: [ '6.0.3' ],
+68 silly audit   'undici-types': [ '8.3.0' ],
+68 silly audit   'update-browserslist-db': [ '1.2.3' ],
+68 silly audit   watchpack: [ '2.4.0' ],
+68 silly audit   'dotenv-cli': [ '11.0.0' ],
+68 silly audit   'cross-spawn': [ '7.0.6' ],
+68 silly audit   dotenv: [ '17.4.2', '16.6.1' ],
+68 silly audit   'dotenv-expand': [ '12.0.3' ],
+68 silly audit   minimist: [ '1.2.8' ],
+68 silly audit   'path-key': [ '3.1.1' ],
+68 silly audit   'shebang-command': [ '2.0.0' ],
+68 silly audit   which: [ '2.0.2' ],
+68 silly audit   'shebang-regex': [ '3.0.0' ],
+68 silly audit   isexe: [ '2.0.0' ]
+68 silly audit }
+69 http cache isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 0ms (cache hit)
+70 http cache shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 0ms (cache hit)
+71 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+72 http cache shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 0ms (cache hit)
+73 http cache path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 0ms (cache hit)
+74 http cache minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 0ms (cache hit)
+75 http cache dotenv-expand@https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-12.0.3.tgz 0ms (cache hit)
+76 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-17.4.2.tgz 0ms (cache hit)
+77 http cache cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz 0ms (cache hit)
+78 http cache dotenv-cli@https://registry.npmjs.org/dotenv-cli/-/dotenv-cli-11.0.0.tgz 0ms (cache hit)
+79 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz 0ms (cache hit)
+80 silly tarball no local data for dotenv-expand@https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-12.0.3.tgz. Extracting by manifest.
+81 silly tarball no local data for dotenv-cli@https://registry.npmjs.org/dotenv-cli/-/dotenv-cli-11.0.0.tgz. Extracting by manifest.
+82 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz. Extracting by manifest.
+83 http fetch GET 200 https://registry.npmjs.org/dotenv-cli/-/dotenv-cli-11.0.0.tgz 134ms (cache miss)
+84 http fetch GET 200 https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-12.0.3.tgz 143ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz 157ms (cache miss)
+86 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 439ms
+87 silly audit report {
+87 silly audit report   esbuild: [
+87 silly audit report     {
+87 silly audit report       id: 1102341,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+87 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '<=0.24.2',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     }
+87 silly audit report   ],
+87 silly audit report   next: [
+87 silly audit report     {
+87 silly audit report       id: 1099639,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-gp8f-8m3g-qvj9',
+87 silly audit report       title: 'Next.js Cache Poisoning',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '>=13.5.1 <13.5.7',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1100421,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-g77x-44xx-532m',
+87 silly audit report       title: 'Denial of Service condition in Next.js image optimization',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=10.0.0 <14.2.7',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1117931,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-8h8q-6873-q5fj',
+87 silly audit report       title: 'Next.js Vulnerable to Denial of Service with Server Components',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '>=13.0.0 <15.5.16',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1101439,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-7m27-7ghc-44w9',
+87 silly audit report       title: 'Next.js Allows a Denial of Service (DoS) with Server Actions',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=13.0.0 <13.5.8',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1105461,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-3h52-269p-cp9r',
+87 silly audit report       title: 'Information exposure in Next.js dev server due to lack of origin verification',
+87 silly audit report       severity: 'low',
+87 silly audit report       vulnerable_versions: '>=13.0 <14.2.30',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1111391,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-mwv6-3258-q52c',
+87 silly audit report       title: 'Next Vulnerable to Denial of Service with Server Components',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '>=13.3.0 <14.2.34',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1107226,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-g5qg-72qw-gw5v',
+87 silly audit report       title: 'Next.js Affected by Cache Key Confusion for Image Optimization API Routes',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.31',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1107420,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-7gfc-8cq8-jh5f',
+87 silly audit report       title: 'Next.js authorization bypass vulnerability',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '>=9.5.5 <14.2.15',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1107512,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-4342-x723-ch2f',
+87 silly audit report       title: 'Next.js Improper Middleware Redirect Handling Leads to SSRF',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.32',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1107513,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-xv57-4mr9-wg8v',
+87 silly audit report       title: 'Next.js Content Injection Vulnerability for Image Optimization',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.31',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1112182,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-5j59-xgg2-r9c4',
+87 silly audit report       title: 'Next has a Denial of Service with Server Components - Incomplete Fix Follow-Up',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '>=13.3.1-canary.0 <14.2.35',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1108291,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-qpjv-v59x-3qc4',
+87 silly audit report       title: 'Next.js Race Condition to Cache Poisoning',
+87 silly audit report       severity: 'low',
+87 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.24',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1118942,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-3g8h-86w9-wvmq',
+87 silly audit report       title: "Next.js's Middleware / Proxy redirects can be cache-poisoned",
+87 silly audit report       severity: 'low',
+87 silly audit report       vulnerable_versions: '>=12.2.0 <15.5.16',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1118944,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-ffhc-5mcf-pf4q',
+87 silly audit report       title: 'Next.js vulnerable to cross-site scripting in App Router applications using CSP nonces',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=13.4.0 <15.5.16',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1118946,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-vfv6-92ff-j949',
+87 silly audit report       title: 'Next.js vulnerable to cache poisoning via collisions in React Server Component cache-busting',
+87 silly audit report       severity: 'low',
+87 silly audit report       vulnerable_versions: '>=13.4.6 <15.5.16',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1118948,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-gx5p-jg67-6x7h',
+87 silly audit report       title: 'Next.js has cross-site scripting in beforeInteractive scripts with untrusted input',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=13.0.0 <15.5.16',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1118952,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-h64f-5h5j-jqjh',
+87 silly audit report       title: 'Next.js has a Denial of Service in the Image Optimization API',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.16',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1118954,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-c4j6-fc7j-m34r',
+87 silly audit report       title: 'Next.js vulnerable to server-side request forgery in applications using WebSocket upgrades',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '>=13.4.13 <15.5.16',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1118962,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-36qx-fr4f-26g5',
+87 silly audit report       title: 'Next.js has a Middleware / Proxy bypass in Pages Router applications using i18n',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '>=12.2.0 <15.5.16',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1112593,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-9g9p-9gw9-jx7f',
+87 silly audit report       title: 'Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.10',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1112653,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-h25m-26qc-wcjf',
+87 silly audit report       title: 'Next.js HTTP request deserialization can lead to DoS when using insecure React Server Components',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '>=13.0.0 <15.0.8',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1113690,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-f82v-jwr5-mffw',
+87 silly audit report       title: 'Authorization Bypass in Next.js Middleware',
+87 silly audit report       severity: 'critical',
+87 silly audit report       vulnerable_versions: '>=13.0.0 <13.5.9',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1114897,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-ggv3-7p47-pfv8',
+87 silly audit report       title: 'Next.js: HTTP request smuggling in rewrites',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=9.5.0 <15.5.13',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1114940,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-3x4c-7xq6-9pq8',
+87 silly audit report       title: 'Next.js: Unbounded next/image disk cache growth can exhaust storage',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.14',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1116376,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-q4gf-8mx6-v5v3',
+87 silly audit report       title: 'Next.js has a Denial of Service with Server Components',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '>=13.0.0 <15.5.15',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1097295,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-fr5h-rqp8-mj6g',
+87 silly audit report       title: 'Next.js Server-Side Request Forgery in Server Actions',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '>=13.4.0 <14.1.1',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     }
+87 silly audit report   ],
+87 silly audit report   postcss: [
+87 silly audit report     {
+87 silly audit report       id: 1117015,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+87 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '<8.5.10',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     }
+87 silly audit report   ]
+87 silly audit report }
+88 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+89 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+90 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/postcss 180ms (cache revalidated)
+92 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:344717 disposed:false
+93 http fetch GET 200 https://registry.npmjs.org/esbuild 205ms (cache revalidated)
+94 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:887361 disposed:false
+95 http fetch GET 200 https://registry.npmjs.org/next 298ms (cache revalidated)
+96 silly packumentCache corgi:https://registry.npmjs.org/next set size:25321993 disposed:false
+97 silly packumentCache corgi:https://registry.npmjs.org/@esbuild-kit%2fcore-utils cache-miss
+98 http fetch GET 200 https://registry.npmjs.org/@esbuild-kit%2fcore-utils 173ms (cache revalidated)
+99 silly packumentCache corgi:https://registry.npmjs.org/@esbuild-kit%2fcore-utils set size:50014 disposed:false
+100 silly packumentCache corgi:https://registry.npmjs.org/@esbuild-kit%2fesm-loader cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/@esbuild-kit%2fesm-loader 389ms (cache revalidated)
+102 silly packumentCache corgi:https://registry.npmjs.org/@esbuild-kit%2fesm-loader set size:48202 disposed:false
+103 silly packumentCache corgi:https://registry.npmjs.org/drizzle-kit cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/drizzle-kit 117ms (cache revalidated)
+105 silly packumentCache corgi:https://registry.npmjs.org/drizzle-kit set size:1201438 disposed:false
+106 silly ADD node_modules/isexe
+107 silly ADD node_modules/shebang-regex
+108 silly ADD node_modules/which
+109 silly ADD node_modules/shebang-command
+110 silly ADD node_modules/path-key
+111 silly ADD node_modules/minimist
+112 silly ADD node_modules/dotenv-expand
+113 silly ADD node_modules/dotenv-expand/node_modules/dotenv
+114 silly ADD node_modules/dotenv
+115 silly ADD node_modules/cross-spawn
+116 silly ADD node_modules/dotenv-cli
+117 warn allow-scripts 3 packages have install scripts not yet covered by allowScripts:
+117 warn allow-scripts   esbuild@0.18.20 (postinstall: node install.js)
+117 warn allow-scripts   esbuild@0.25.12 (postinstall: node install.js)
+117 warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+117 warn allow-scripts
+117 warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+118 verbose cwd /data/data/com.termux/files/home
+119 verbose os Linux 5.10.237-android12-9-00014-gf82f7360927e-ab14119954
+120 verbose node v24.17.0
+121 verbose npm  v11.17.0
+122 verbose exit 0
+123 info ok
